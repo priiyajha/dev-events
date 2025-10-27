@@ -42,6 +42,7 @@ async function connectDB(): Promise<typeof mongoose> {
             );
         }
         const options = {
+            family: 4,
             bufferCommands: false, // Disable Mongoose buffering
         };
 
