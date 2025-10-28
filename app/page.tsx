@@ -19,9 +19,9 @@
 //                 <h3>Featured Events</h3>
 //
 //                 <ul className="events">
-//                     {events && events.length > 0 && events.map((event: IEvent) => (
-//                         <li key={event.title} className="list-none">
-//                             <EventCard {...event} />
+//                     {events && events.length > 0 && events.map((events: IEvent) => (
+//                         <li key={events.title} className="list-none">
+//                             <EventCard {...events} />
 //                         </li>
 //                     ))}
 //                 </ul>
